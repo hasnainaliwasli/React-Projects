@@ -1,0 +1,95 @@
+.content_container {
+    min-height: 100vh;
+    width: 100%;
+}
+
+// .Main_container {
+//     background: radial-gradient(circle at 22.4% 21.7%, rgb(4, 189, 228) 0%, rgb(2, 83, 185) 100.2%);
+
+//     background: radial-gradient(circle at 22.4% 21.7%, rgb(2, 83, 185) 0%, rgb(4, 189, 228)100.2%);
+
+//     background-color: rgb(2, 83, 185);
+// }
+
+#main_reg {
+    background: #349569;
+}
+
+#reg_btn {
+    background: #349569;
+}
+#reg_btn:hover {
+    background: #287552;
+}
+
+#login_btn {
+    background-color: rgb(2, 83, 185);
+}
+
+#login_btn:hover {
+    background-color: rgb(29, 84, 151);
+}
+
+
+// Container Right
+
+.container_right {
+    background-color: whitesmoke;
+    margin-right: 0.5rem;
+    width: 75%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    box-sizing: border-box;
+}
+
+/* Small screens (600px and below) */
+@media only screen and (max-width: 600px) {
+    .container_right {
+        padding: 4rem;
+    }
+}
+
+/* Medium screens (min-width: 601px to 767px) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .container_right {
+        padding: 6rem;
+    }
+}
+
+/* Larger medium screens (768px to 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container_right {
+        padding: 8rem;
+    }
+}
+
+/* Large screens (992px and above) */
+@media only screen and (min-width: 992px) {
+    .container_right {
+        padding: 13rem;
+    }
+}
+
+/* Extra large screens (1200px and above) */
+@media only screen and (min-width: 1200px) {
+    .container_right {
+        padding: 15rem;
+    }
+}
+
+
+// Container Right
+
+.container_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+
+
+}

@@ -1,0 +1,19 @@
+.hero_Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 130px);
+}
+
+#hero_card {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 0;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+#card_dash {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 17% !important;
+}

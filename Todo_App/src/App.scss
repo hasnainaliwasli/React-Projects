@@ -1,0 +1,19 @@
+@import '/src/scss/bootstrap';
+@import './scss/auth';
+@import './scss/hero';
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(2, 83, 185);
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.nav-link:target {
+  color: red;
+}
